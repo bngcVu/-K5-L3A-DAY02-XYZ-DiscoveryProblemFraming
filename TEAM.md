@@ -58,13 +58,13 @@ Các mục dưới đây chỉ ghi những gì có trong báo cáo cá nhân, `g
 
 ### VuManhHoach-2A202603500
 
-**Phần việc phụ trách:** CP1 và CP2 cá nhân. Phần nhóm CP3–CP6: thành viên tự điền.
+**Phần việc phụ trách:** CP1 và CP2 cá nhân. Phần nhóm CP3–CP6: chính CP5, hỗ trợ CP3, CP4, CP6.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì): Scan 8 problem; viết 3 Problem Card kèm quy trình nháp. Card sửa lỗi code Python (#7) vào shortlist của nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào): `report/individual/2A202603500_VuManhHoach.md`; `group_report.md` mục 2.1 dòng #7–#9 và mục 2.4; commit `4f2bde9`.
 
-**Điều mình học được từ phần nhóm:** Thành viên tự điền.
+**Điều mình học được từ phần nhóm:** Xem mục 6.1 và 6.6 trong báo cáo cá nhân.
 
 ### PhanNhatTruong-2A202603459
 
