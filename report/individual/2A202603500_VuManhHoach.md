@@ -1,9 +1,5 @@
 # Báo cáo cá nhân — MSSV_HoTen
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Vũ Mạnh Hoạch
@@ -21,7 +17,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 | Lặp lại; tốn thời gian | Khi chuẩn bị học hoặc làm bài tập cho các môn, tôi muốn tìm nhanh tài liệu đúng nội dung và đáng tin cậy, để có thêm thời gian đọc hiểu và thực hành. | Bản thân | Khoảng 2 giờ/tuần tìm tài liệu cho 3 môn. |
-| 2 | Tốn thời gian; lặp lại | Khi chương trình Python gặp lỗi, tôi muốn biết nguyên nhân và cách kiểm tra bản sửa, để tiếp tục hoàn thành bài thực hành. | Bản thân. | dùng Python, mất khoảng 1–2 giờ/ngày sửa lỗi code. |
+| 2 | Tốn thời gian; lặp lại | Khi chương trình Python gặp lỗi, tôi muốn biết nguyên nhân và cách kiểm tra bản sửa, để tiếp tục hoàn thành bài thực hành. | Bản thân. | Khoảng 1–2 giờ/ngày sửa lỗi code. |
 | 3 | Cần đọc, tổng hợp nhiều thông tin | Khi đọc tài liệu FinTech bằng tiếng Anh, tôi muốn hiểu chính xác thuật ngữ và nối được các ý chính, để áp dụng vào việc học. | Bản thân. | Khoảng 1 giờ/tài liệu tiếng Anh |
 | 4 | Tốn thời gian | Khi làm bài có công thức tài chính, tôi muốn hiểu ý nghĩa biến số và điều kiện áp dụng, để chọn đúng công thức và giải thích được kết quả. | Bản thân. | Khoảng 20 phút/công thức |
 | 5 | Tốn thời gian; lặp lại | Khi nhận một bộ dữ liệu để làm bài bằng Excel hoặc Python, tôi muốn phát hiện và xử lý các giá trị thiếu, trùng hoặc sai định dạng, để có dữ liệu đủ tin cậy cho phân tích. | Bản thân; người dùng kết quả phân tích nếu làm bài nhóm. | Khoảng 30 phút - 1 tiếng để làm sạch dữ liệu |
@@ -62,14 +58,15 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 Quy trình nháp hiện tại:
 
-```[1 Chạy code, phát hiện lỗi: 5']
+```
+[1 Chạy code, phát hiện lỗi: 5']
   → [2 Đọc traceback/đầu ra: 10']
   → [3 Khoanh vùng nguyên nhân: 20']
   → [4 Tìm tài liệu/cách sửa: 25'] ← BOTTLENECK GIẢ THUYẾT (3–5)
   → [5 Sửa và chạy lại: 20']
   → [6 Đối chiếu kết quả: 10']
 
-TỔNG MINH HỌA: 90 phút (người học tự báo cáo 60–120 phút/ngày).
+TỔNG MINH HỌA: 90 phút.
 
 ```
 
@@ -90,13 +87,14 @@ TỔNG MINH HỌA: 90 phút (người học tự báo cáo 60–120 phút/ngày)
 
 Quy trình nháp hiện tại:
 
-```[1 Xác định chủ đề: 10']
+```
+[1 Xác định chủ đề: 10']
   → [2 Tìm trên các nguồn: 30']
   → [3 Mở và lọc tài liệu: 40'] ← BOTTLENECK GIẢ THUYẾT (3–4)
   → [4 Kiểm độ phù hợp/tin cậy: 25']
   → [5 Lưu link và ghi chú: 15']
 
-TỔNG MINH HỌA: 120 phút/tuần cho 3 môn (đã có tổng thời gian tự báo cáo).
+TỔNG MINH HỌA: 120 phút/tuần cho 3 môn.
 
 ```
 
@@ -117,14 +115,15 @@ TỔNG MINH HỌA: 120 phút/tuần cho 3 môn (đã có tổng thời gian tự
 
 Quy trình nháp hiện tại:
 
-```[1 Mở/nhập dữ liệu: 5']
+```
+[1 Mở/nhập dữ liệu: 5']
   → [2 Kiểm tra dữ liệu thiếu/trùng/sai định dạng: 8']
   → [3 Chọn quy tắc làm sạch: 8'] ← BOTTLENECK GIẢ THUYẾT (3–5)
   → [4 Xử lý trong Excel/Python: 14']
   → [5 Kiểm tra dữ liệu sau làm sạch: 8']
   → [6 Xuất dữ liệu: 2']
 
-TỔNG MINH HỌA: 45 phút/lần (người học tự báo cáo 30–60 phút/lần).
+TỔNG MINH HỌA: 45 phút/lần.
 
 ```
 
